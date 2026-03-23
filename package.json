@@ -10,18 +10,12 @@
         "dev": "nodemon src/api.js",
         "test": "jest --config ./jest.config.js"
     },
-    "keywords": [
-        "anime",
-        "streaming",
-        "discovery",
-        "api",
-        "gogoanime"
-    ],
+    "keywords": ["anime", "streaming", "discovery", "api", "gogoanime"],
     "author": "https://github.com/anbuinfosec",
     "license": "ISC",
     "dependencies": {
         "axios": "^1.1.2",
-        "cheerio": "^1.0.0-rc.10",
+        "cheerio": "1.0.0-rc.12",
         "cors": "^2.8.5",
         "crypto-js": "^4.1.1",
         "express": "^4.18.2",
